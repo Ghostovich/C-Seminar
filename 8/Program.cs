@@ -1,20 +1,17 @@
-﻿
- Console.Write("Введите число:");
-int a = int.Parse(Console.ReadLine());
-
-
-if (a==1) {
-    Console.Write("x-положительное, у - положительное");
+﻿int Long (int x1, int x2, int y1, int y2)
+{
+int d = (x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
+int k = Convert.ToInt32(Math.Sqrt(d));
+return k;
 }
-if (a==2) {
-    Console.Write("x - отрицательное, у - положительное");
-}if (a==3) {
-    Console.Write("x-отрицательное, у - отрицательное");
-}if (a==4) {
-    Console.Write("x-положительное, у - отрицательное");
-}if (a==0) {
-    Console.Write("x=0, у=0");
-}
+ Console.Write("Введите координаты Х и У точки 1:");
+int x1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine());
 
-   else if(a>4)
-   {Console.Write("Введено некорректное значение");}
+Console.Write("Введите координаты Х и У точки 2:");
+int x2 = int.Parse(Console.ReadLine());
+int y2 = int.Parse(Console.ReadLine());
+
+int res = Long(x1, x2, y1, y2);
+Console.WriteLine(res);
+
