@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "HVYG17MXU9zJpF9egLiDHa10ev+ceE/Ds0SaKE9eZLZ4FuJ2ePVij+qE3/md4Wn2g2aBXEneUr/A7kZYkSww7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Кампухтер\\Desktop\\GeekBrains\\C#\\С\\Seminar\\C-Seminar\\18\\3.csproj",
+=======
+  "dgSpecHash": "BA0eRrQ17iVz35qV18Fi2g5TzjBedCF/RKCov+cq47Tdlx4cZjKpBerqChwUmXykZi06XanPEIbO+wl4HnTjyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\GB\\intLP\\С#Seminar\\C-Seminar\\18\\17.csproj",
+>>>>>>> a54afef9282c69c703f949c315abe64987889030
   "expectedPackageFiles": [],
   "logs": []
 }
