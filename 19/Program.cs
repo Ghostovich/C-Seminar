@@ -1,9 +1,4 @@
-﻿// int[,] GetArray(int n, int m)
-// {
-// int[,] array = new int[m,n];
-// }
-
-int n = 0;
+﻿int n = 0;
 int m = 0;
 
 // Console.WriteLine("Введите количество столбцов:");
@@ -37,4 +32,21 @@ else
     m = numberM;
 }
 
-int[,] array = new int[m,n];
+int[,] array = new int[n, m];
+for (int i=0; i<n;i++)
+{
+    for (int j=0; j<m; j++)
+    {
+        array [i,j] = new Random().Next(1,10);
+    }
+}
+
+
+for (int i=0; i<n;i++)
+{
+    for (int j=0; j<m; j++)
+    {
+        Console.Write(array [i,j]);
+    }
+    Console.WriteLine();
+}
