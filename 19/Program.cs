@@ -33,20 +33,20 @@ else
 }
 
 int[,] array = new int[n, m];
-for (int i=0; i<n;i++)
+for (int i = 0; i < n; i++)
 {
-    for (int j=0; j<m; j++)
+    for (int j = 0; j < m; j++)
     {
-        array [i,j] = new Random().Next(1,10);
+        array[i, j] = new Random().Next(1, 10);
     }
 }
 
 
-for (int i=0; i<n;i++)
+for (int i = 0; i < n; i++)
 {
-    for (int j=0; j<m; j++)
+    for (int j = 0; j < m; j++)
     {
-        Console.Write(array [i,j]);
+        Console.Write(array[i, j]);
     }
     Console.WriteLine();
 }
